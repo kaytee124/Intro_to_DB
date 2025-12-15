@@ -1,6 +1,6 @@
-from mysql.connector import connect
+import mysql.connector
 
-mydb = connect(
+mydb = mysql.connector.connect(
     host="localhost",
     user="root",
     password= "Vicky@2017",
